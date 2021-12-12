@@ -24,35 +24,7 @@ function SideBar(props){
                 <li className="nav-item active">
                     <Link className="nav-link" to="/">
                         <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Dashboard - DH movies</span></Link>
-                </li>
-
-                {/*<!-- Divider -->*/}
-                <hr className="sidebar-divider"/>
-
-                {/*<!-- Heading -->*/}
-                <div className="sidebar-heading">Actions</div>
-
-                {/*<!-- Nav Item - Pages -->*/}
-                <li className="nav-item">
-                <Link className="nav-link" to="/GenresInDb">
-                        <i className="fas fa-fw fa-folder"></i>
-                        <span>Pages</span>
-                    </Link>
-                </li>
-
-                {/*<!-- Nav Item - Charts -->*/}
-                <li className="nav-item">
-                    <Link className="nav-link" to="/LastMovieInDb">
-                        <i className="fas fa-fw fa-chart-area"></i>
-                        <span>Charts</span></Link>
-                </li>
-
-                {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item nav-link">
-                <Link className="nav-link" to="/ContentRowMovies">
-                        <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></Link>
+                        <span>Dashboard - Sneakers-Arg</span></Link>
                 </li>
 
                 {/*<!-- Divider -->*/}

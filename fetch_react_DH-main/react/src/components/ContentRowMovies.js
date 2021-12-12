@@ -8,7 +8,7 @@ function ContentRowMovies(props){
     let productCount = {
         title: 'Total de productos',
         color: 'primary',
-        cuantity: props.products.count || "loading...",
+        cuantity: props.products.count || "Cargando...",
         icon: 'fas fa-gift',
       }
   
@@ -17,7 +17,7 @@ function ContentRowMovies(props){
       let userCount = {
         title: 'Total de usuarios',
         color: 'success',
-        cuantity: props.users.count || "loading...",
+        cuantity: props.users.count || "Cargando...",
         icon: 'fas fa-user',
       }
       /* <!-- Actors quantity --> */
@@ -25,7 +25,7 @@ function ContentRowMovies(props){
       let CategoryCount = {
         title: 'Total de categorias',
         color: 'warning',
-        cuantity: props.products.countByCategory?.length || "loading...",
+        cuantity: props.products.countByCategory?.length || "Cargando...",
         icon: 'fas fa-restroom',
       }
   
