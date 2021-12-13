@@ -12,7 +12,6 @@ function ContentWrapper(){
        fetch( url )
        .then( response => response.json() )
        .then( data => {
-        console.log(CharacterData)
         setProducts(data);
     });
    },[]);
@@ -22,7 +21,6 @@ function ContentWrapper(){
     fetch( url )
     .then( response => response.json() )
     .then( data => {
-     console.log(CharacterData)
      setUsers(data);
  });
 },[]);

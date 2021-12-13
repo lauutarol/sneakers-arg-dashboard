@@ -17,7 +17,6 @@ function LastMovieInDb( ){
     },[]);
 
     let ultimoProducto = products[products.length -1] || "Cargando"
-    console.log(ultimoProducto.image)
     return(
         <div className="col-lg-6 mb-4">
             <div className="card shadow mb-4">
@@ -28,7 +27,7 @@ function LastMovieInDb( ){
                     <div className="text-center">
                     {ultimoProducto?.name || "Cargando..."}
                     </div>
-                    <div><img src={ultimoProducto?.image}  style={{width:"100px"}} alt={ultimoProducto?.name}/></div>
+                    <div><img src={ultimoProducto?.image}  style={{width:"200px"}} alt={ultimoProducto?.name}/></div>
                    
                     
                 </div>
