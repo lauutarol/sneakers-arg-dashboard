@@ -23,8 +23,12 @@ console.log(categorias)
         <div className="card-header py-3">
           <h5 className="m-0 font-weight-bold text-gray-800">
             Total de productos por categorías:
-            <div>{}</div>
-          </h5>
+            </h5>
+            <div className="card-body">
+              </div>
+            <div>En la categoría "Urban" hay: {categorias?.[0].Urban || "Cargando..."} productos. </div>
+            <div>En la categoría "Retro" hay: {categorias?.[1].Retro || "Cargando..."} productos. </div>
+            <div>En la categoría "Sport" hay: {categorias?.[2].Sport || "Cargando..."} productos. </div>
         </div>
         </div>
     </div>
