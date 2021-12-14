@@ -15,7 +15,6 @@ function GenresInDb() {
 },[]);
 
 let categorias = products.countByCategory
-console.log(categorias)
 
   return (
     <div className="col-lg-6 mb-4">
